@@ -22,7 +22,42 @@
   font-size: large;
 }
 
+p {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.turn > div {
+  height: 400px;
+}
+
+.turn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.authorimage {
+  max-height: 100%;
+  width: 100%;
+}
+
+.answer {
+  background-color: #f0f7fd;
+  border-color: #d0e3f0;
+  margin-bottom: 20px;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid #d0e3f0;
+  cursor: pointer;
+}
+
+.answer:hover {
+  background-color: #d0e3f0;
+}
+
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
